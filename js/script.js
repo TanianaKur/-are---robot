@@ -6,9 +6,9 @@ const sleep = (ms) => {
 const myAsyncFunc = async () => {
 	for (let num = 0; num < 10; num++) {
 		console.log('Заяц');
-		await sleep(2000);
+		await sleep(1500);
 		console.log(userName);
-		await sleep(2000);
+		await sleep(1500);
 	}
 	console.log('Я сломался.....');
 };
